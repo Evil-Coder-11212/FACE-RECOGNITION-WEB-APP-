@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header>h1 {
+    margin-bottom: 1em;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.camera {
+    width: 25%;
+    height: 60%;
+    padding: 1em;
+}
+
+.webcame {
+    background-color: black;
+    width: 100%;
+    height: 90%;
+}
